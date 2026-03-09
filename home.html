@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-BD">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home | Boring Website</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+            background-color: #2a1600 ;
+            margin: 0px;
+            min-height: 100vh;
+            width: 100vw;
+/* flex-box : */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        
+        .sec1 {
+            background-color: #242424;
+            color: white;
+            width: 100vw;
+            height: auto;
+            line-height: 5px;
+        }
+        
+      .sec2 {
+        background-color: gray;
+        margin: 0px 5px 5px 5px;
+        height: 50vh;
+        width: 100vw;
+        border: 1px solid black;
+        padding: 4px;
+        
+        /* flex-box : box-gulo majhkhane anar jonno */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 20px;
+        flex: 1;
+      }
+      
+      .div {
+        background-color: brown;
+        color: black;
+        border: 3px solid black;
+        height: 5vh;
+        width: 10vw;
+        border-radius: 5px;
+        
+        /* flex-box : box-er vitorer text (A-Z) majhkhane anar jonno */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      a {
+          text-decoration: none;
+          color: white;
+      }
+      
+      .sec3 {
+          background-color: green;
+          color: black;
+          border: 3px solid black;
+          height: 5vh;
+          width: 70vw;
+          margin: 0px;
+          border-radius: 5px;
+        /* "Click any letter to see something"— lekhata box-er majhkhane anar jonno*/
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      footer{
+          background-color: black;
+          color: white;
+          height: auto;
+          width: 100vw;
+          margin: 5px;
+          line-height: 30px;
+          padding: 10px;
+          border: 1px solid black;
+      }
+      nav {
+          background-color: black;
+          color: white;
+          height: auto;
+          width: 100vw;
+      }
+      
+      .nav1 {
+          background-color: brown; /* "Home"—er background-color */
+         
+      }
+      
+      .a {
+          color: black; /* "Home"—text-er color */
+      }
+     
+   
+   
+   /* width: 356px;—এর নিচে হলে সাধারণত class="sec1"—এর ক্ষেত্রে লেখাগুলো গায়ে লেগে যায় তাই...লেখার মাঝের দূরত্ব বাড়িয়ে দেওয়া হয়েছে। */
+   @media screen and (max-width: 356px)
+   {
+       .sec1 {
+           line-height: 25px;
+       }
+   }
+   
+    </style>
+  </head>
+  <body>
+      <section class="sec1">
+          <h3>WELCOME TO THIS BORING (?) WEBSITE !</h3>
+          <h5>HERE YOU WILL FIND NOTHING !</h5>
+          <h6>I CREATED THIS PAGE FOR FUN !</h6>
+          </section>
+          <nav class="nav1"><a href="home.html" class="a"><b>Home</b></a></nav>
+      
+   <section class="sec2">
+    <div class="div"><a href="a.html">A</a></div>
+    <div class="div"><a href="b.html">B</a></div>
+    <div class="div"><a href="c.html">C</a></div>
+    <div class="div"><a href="d.html">D</a></div>
+    <div class="div"><a href="e.html">E</a></div>
+    <div class="div"><a href="f.html">F</a></div>
+    <div class="div"><a href="g.html">G</a></div>
+    <div class="div"><a href="h.html">H</a></div>
+    <div class="div"><a href="i.html">I</a></div>
+    <div class="div"><a href="j.html">J</a></div>
+    <div class="div"><a href="k.html">K</a></div>
+    <div class="div"><a href="l.html">L</a></div>
+    <div class="div"><a href="m.html">M</a></div>
+    <div class="div"><a href="n.html">N</a></div>
+    <div class="div"><a href="o.html">O</a></div>
+    <div class="div"><a href="p.html">P</a></div>
+    <div class="div"><a href="q.html">Q</a></div>
+    <div class="div"><a href="r.html">R</a></div>
+    <div class="div"><a href="s.html">S</a></div>
+    <div class="div"><a href="t.html">T</a></div>
+    <div class="div"><a href="u.html">U</a></div>
+    <div class="div"><a href="v.html">V</a></div>
+    <div class="div"><a href="w.html">W</a></div>
+    <div class="div"><a href="x.html">X</a></div>
+    <div class="div"><a href="y.html">Y</a></div>
+    <div class="div"><a href="z.html">Z</a></div>
+    </section>
+    
+    
+    <section class="sec3">
+   <div>Click any letter to see something.</div>
+   </section>
+
+
+   <footer>&copy; 2024 | Jeyad Hossain Semu<br>
+  Follow Us : <br>
+   <a href="https://www.facebook.com" target="_blank">Facebook</a> || <a href="https://www.instagram.com" target="_blank">Instagram</a> || <a href="https://www.youtube.com" target="_blank">YouTube</a><br>
+   Contact Us : <br>
+   <a href="https://web.whatsapp.com" target="_blank">WhatsApp</a> || <a href="https://web.telegram.com" target="_blank">Telegram</a><br>
+   About Us : <br>
+   This is a website for testing my ability in the field of coding (HTML & CSS) as a very beginner.<br>
+   </footer>
+   
+  </body>
+</html>
